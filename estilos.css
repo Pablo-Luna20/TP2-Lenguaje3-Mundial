@@ -1,0 +1,37 @@
+body {
+    background-color: #e5b531; /* Color de fondo */
+    color: #040404;            /* Color de texto */
+    font-family: sans-serif;   /* Una letra más moderna */
+}
+
+a {
+    text-decoration: none;     /* Quita el subrayado */
+    color: #05236a;            /* Color de los paises */
+    font-weight: bold;         /* Para que resalten más */
+    border: 1px solid #040404; /* Un pequeño borde para que parezcan botones */
+    padding: 5px 10px;           /* Tamaño del borde */
+    border-radius: 5px;          /* Borde el cuadro */
+}
+
+/* Efecto cuando pasas el mouse por encima de los países */
+a:hover {
+    background-color: #040404;
+    color: #e5b531;
+}
+
+h2, h3, h4, h5, h6 {
+    border: 2px solid black;     /* Borde para que parezcan botones */
+    padding: 8px 20px;         /* Tamaño del borde */
+    border-radius: 8px;        /* Borde el cuadro */
+    width: fit-content;      /* La caja se ajusta al texto */
+    margin-left: auto;       /* Centra la caja horizontalmente */
+    margin-right: auto;      /* Centra la caja horizontalmente */
+    background-color: rgba(150, 50, 50, 0.2);    /* Un fondo para resaltar */
+}
+
+/* Ajuste para las imágenes del carrusel */
+.carousel-item img {
+    height: 450px;      /* Altura fija para que el carrusel no "salte" */
+    object-fit: contain; /* Muestra la imagen entera sin recortar */
+    background-color: #e5b531; /* Agrega un fondo negro para llenar los huecos laterales */
+}
