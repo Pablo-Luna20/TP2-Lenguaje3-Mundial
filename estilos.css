@@ -11,6 +11,7 @@ a {
     border: 1px solid #040404; /* Un pequeño borde para que parezcan botones */
     padding: 5px 10px;           /* Tamaño del borde */
     border-radius: 5px;          /* Borde el cuadro */
+    transition: all 0.3s ease; /* Hace que el cambio de color sea suave */
 }
 
 /* Efecto cuando pasas el mouse por encima de los países */
@@ -27,11 +28,14 @@ h2, h3, h4, h5, h6 {
     margin-left: auto;       /* Centra la caja horizontalmente */
     margin-right: auto;      /* Centra la caja horizontalmente */
     background-color: rgba(150, 50, 50, 0.2);    /* Un fondo para resaltar */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo más neutro */
 }
 
 /* Ajuste para las imágenes del carrusel */
 .carousel-item img {
-    height: 450px;      /* Altura fija para que el carrusel no "salte" */
+    height: 500px;      /* Altura fija para que el carrusel no "salte" */
     object-fit: contain; /* Muestra la imagen entera sin recortar */
-    background-color: #e5b531; /* Agrega un fondo negro para llenar los huecos laterales */
+    background-color: #e5b531; /* Agrega el mismo color de fondo para llenar los huecos laterales */
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3)); /* Sombra para la foto */
 }
